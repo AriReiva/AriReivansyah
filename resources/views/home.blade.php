@@ -243,7 +243,7 @@ function toggleText(id, btn) {
             <div class="flex gap-2">
                 <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">PHP</span>
                 <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">Kotlin</span>
-                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">MySQL</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">SQL</span>
             </div>
             <p class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md">
                 A <span class="text-purple-300 font-semibold">point-of-sale (POS)</span> Android application developed specifically for the <span class="text-purple-300 font-semibold">Fashion Department of SMKN 24 Jakarta</span>.
@@ -258,7 +258,7 @@ function toggleText(id, btn) {
         </div>
     </div>
 
-    <!-- Project 1 -->
+    <!-- Project 2 -->
     <div class="grid md:grid-cols-2 gap-10 items-center mb-20">
         <!-- Image -->
         <div class="relative">
@@ -269,16 +269,116 @@ function toggleText(id, btn) {
             <p class="text-sm text-purple-300 font-semibold">March 2024</p>
             <h2 class="text-2xl font-bold text-white">CupSans Ultimate Shoutwon</h2>
             <div class="flex gap-2">
-                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">PHP</span>
-                <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">Kotlin</span>
-                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">MySQL</span>
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">Java</span>
             </div>
             <p class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md">
                 A collaborative <span class="text-purple-300 font-semibold">2D platformer game</span> inspired by the artistic charm of <span class="text-purple-300 font-semibold">Cuphead</span> and the narrative depth of <span class="text-purple-300 font-semibold">Undertale</span>. Players must overcome a series of <span class="text-purple-300 font-semibold">dynamic challenges</span> and <span class="text-purple-300 font-semibold">obstacles</span> before facing <span class="text-purple-300 font-semibold">uniquely designed boss battles</span> at the end of each level. This game emphasizes <span class="text-purple-300 font-semibold">tight gameplay</span>, <span class="text-purple-300 font-semibold">immersive visuals</span>, and <span class="text-purple-300 font-semibold">progressive difficulty</span> to create a <span class="text-purple-300 font-semibold">memorable action-platforming experience</span> crafted by our <span class="text-purple-300 font-semibold">dedicated team</span>.
             </p>
         </div>
-
     </div>
+
+    <!-- Project 3 -->
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-20">
+        <!-- Text Card -->
+        <div class="z-10 order-2 md:order-1">
+            <p class="text-sm text-purple-300 font-semibold">March 2025</p>
+            <h2 class="text-2xl font-bold text-white">Brain Jet</h2>
+            <div class="flex gap-2">
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">Java</span>
+            </div>
+            <p class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md">
+                A <span class="text-purple-300 font-semibold">2D shooter game</span> where the player pilots a jet and solves <span class="text-purple-300 font-semibold">math questions</span> by shooting the correct answer among <span class="text-purple-300 font-semibold">three flying options</span>.
+                The player must answer each question within <span class="text-purple-300 font-semibold">10 seconds</span> by aiming and shooting the right option.
+                The game consists of <span class="text-purple-300 font-semibold">3 levels</span>: <span class="text-purple-300 font-semibold">addition & subtraction</span>, <span class="text-purple-300 font-semibold">multiplication & division</span>, and a challenging mix of <span class="text-purple-300 font-semibold">three-number operations</span>.
+            </p>
+        </div>
+        <!-- Image -->
+        <div class="relative order-1 md:order-2">
+            <img src="{{ asset('img/brainjet.png')}}" alt="Ventra POS" class="rounded-xl shadow-lg w-full">
+        </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-20">
+        <!-- Image -->
+        <div class="relative">
+            <img src="img/BC.png" alt="ReCode Absensi" class="rounded-xl shadow-lg w-full">
+        </div>
+        <!-- Text Card -->
+        <div class="z-10 order-2 md:order-1">
+            <p class="text-sm text-purple-300 font-semibold">Mei 2026</p>
+            <h2 class="text-2xl font-bold text-white">Bisnis Center </h2>
+            <div class="flex gap-2">
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">PHP</span>
+                <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">Bootstrap</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">SQL</span>
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">HTML</span>
+                <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">CSS</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">Java Script</span>
+            </div>
+            <p class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md">
+                An <span class="text-purple-300 font-semibold">internal ordering system</span> developed to streamline the <span class="text-purple-300 font-semibold">item request and approval workflow</span> within school-based business operations.
+                The system supports <span class="text-purple-300 font-semibold">three user roles</span>: 
+                <span class="text-purple-300 font-semibold">Admin</span> (handles approvals and generates stock reports), 
+                <span class="text-purple-300 font-semibold">Cashier</span> (reviews and approves user orders), and 
+                <span class="text-purple-300 font-semibold">User</span> (places orders and picks up items post-approval).
+                Key features include <span class="text-purple-300 font-semibold">automated reporting</span>, a dynamic <span class="text-purple-300 font-semibold">best-selling items list</span>, and <span class="text-purple-300 font-semibold">restock validation</span> handled exclusively by Admins, ensuring accurate and efficient inventory control.
+
+            </p>
+        </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-20">
+        <!-- Text Card -->
+        <div class="z-10 order-2 md:order-1">
+            <p class="text-sm text-purple-300 font-semibold">July 2025</p>
+            <h2 class="text-2xl font-bold text-white">Portofolio</h2>
+            <div class="flex gap-2">
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">PHP</span>
+                <span class="bg-yellow-600 text-white text-sm px-2 py-1 rounded mb-2">Laravel</span>
+                <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">Bootstrap</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">SQL</span>
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">HTML</span>
+                <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">CSS</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">Java Script</span>
+            </div>
+            <p class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md">
+                A <span class="text-purple-300 font-semibold">responsive portfolio website</span> built using <span class="text-purple-300 font-semibold">Laravel 12</span> to professionally showcase my <span class="text-purple-300 font-semibold">skills, projects, and experience</span> as a <span class="text-purple-300 font-semibold">student developer</span>.
+                The site includes well-structured sections such as <span class="text-purple-300 font-semibold">About</span>, <span class="text-purple-300 font-semibold">Resume</span>, <span class="text-purple-300 font-semibold">Services</span>, <span class="text-purple-300 font-semibold">Skills</span>, <span class="text-purple-300 font-semibold">Projects</span>, and <span class="text-purple-300 font-semibold">Contact</span>, with a <span class="text-purple-300 font-semibold">modern UI</span>, <span class="text-purple-300 font-semibold">responsive design</span>, and <span class="text-purple-300 font-semibold">interactive animations</span> to enhance user experience.
+            </p>
+        </div>
+        <!-- Image -->
+        <div class="relative order-1 md:order-2">
+            <img src="{{ asset('img/PortoLaravel.png')}}" alt="Ventra POS" class="rounded-xl shadow-lg w-full">
+        </div>
+    </div>
+
+    <!-- Project 4 -->
+    <div class="grid md:grid-cols-2 gap-10 items-center mb-20">
+        <!-- Image -->
+        <div class="relative">
+            <img src="img/Portofolio.png" alt="ReCode Absensi" class="rounded-xl shadow-lg w-full">
+        </div>
+        <!-- Text Card -->
+        <div class="z-10 order-2 md:order-1">
+            <p class="text-sm text-purple-300 font-semibold">Juny 2025</p>
+            <h2 class="text-2xl font-bold text-white">Portofolio </h2>
+            <div class="flex gap-2">
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">PHP</span>
+                <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">Bootstrap</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">SQL</span>
+                <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">HTML</span>
+                <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">CSS</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">Java Script</span>
+            </div>
+            <p class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md">
+                A <span class="text-purple-300 font-semibold">responsive portfolio website</span> designed to showcase my <span class="text-purple-300 font-semibold">skills, projects, and experience</span> as a <span class="text-purple-300 font-semibold">student developer</span>.
+                Built with <span class="text-purple-300 font-semibold">Bootstrap 4</span>, the website features dedicated sections including <span class="text-purple-300 font-semibold">About</span>, <span class="text-purple-300 font-semibold">Resume</span>, <span class="text-purple-300 font-semibold">Services</span>, <span class="text-purple-300 font-semibold">Skills</span>, <span class="text-purple-300 font-semibold">Projects</span>, and <span class="text-purple-300 font-semibold">Contact</span>, all integrated with a <span class="text-purple-300 font-semibold">modern user interface</span> and <span class="text-purple-300 font-semibold">smooth animation effects</span> for an engaging user experience.
+            </p>
+        </div>
+    </div>
+    
 
     <!-- Project 2 (zig-zag reversed) -->
     <div class="grid md:grid-cols-2 gap-10 items-center mb-20">
@@ -293,7 +393,7 @@ function toggleText(id, btn) {
             <div class="flex gap-2">
                 <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">PHP</span>
                 <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">Kotlin</span>
-                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">MySQL</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">SQL</span>
             </div>
             <div class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md space-y-3">
             <p>
@@ -332,7 +432,7 @@ function toggleText(id, btn) {
             <div class="flex gap-2">
                 <span class="bg-blue-600 text-white text-sm px-2 py-1 rounded mb-2">PHP</span>
                 <span class="bg-green-600 text-white text-sm px-2 py-1 rounded mb-2">Kotlin</span>
-                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">MySQL</span>
+                <span class="bg-yellow-600 text-ehite text-sm px-2 py-1 rounded mb-2">SQL</span>
             </div>
             <div class="text-white bg-white/10 backdrop-blur-md p-4 rounded-xl shadow-md space-y-3">
                 <p>
